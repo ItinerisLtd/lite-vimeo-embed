@@ -4,6 +4,7 @@
   "description": "A faster vimeo embed.",
   "license": "Apache-2.0",
   "main": "src/lite-vm-embed.js",
+  "style": "src/lite-vm-embed.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ItinerisLtd/lite-vimeo-embed.git"
