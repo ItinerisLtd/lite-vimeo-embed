@@ -1,24 +1,23 @@
 {
-  "name": "lite-youtube-embed",
+  "name": "lite-vimeo-embed",
   "version": "0.2.0",
-  "description": "A faster youtube embed.",
+  "description": "A faster vimeo embed.",
   "license": "Apache-2.0",
-  "main": "src/lite-yt-embed.js",
-  "style": "src/lite-yt-embed.css",
+  "main": "src/lite-vm-embed.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulirish/lite-youtube-embed.git"
+    "url": "git+https://github.com/ItinerisLtd/lite-vimeo-embed.git"
   },
   "keywords": [
-    "youtube",
+    "vimeo",
     "custom element",
     "web component"
   ],
   "author": "Paul Irish",
   "bugs": {
-    "url": "https://github.com/paulirish/lite-youtube-embed/issues"
+    "url": "https://github.com/ItinerisLtd/lite-vimeo-embed/issues"
   },
-  "homepage": "https://github.com/paulirish/lite-youtube-embed#readme",
+  "homepage": "https://github.com/ItinerisLtd/lite-vimeo-embed#readme",
   "readme": "readme.md",
   "files": [
     "src/**",
