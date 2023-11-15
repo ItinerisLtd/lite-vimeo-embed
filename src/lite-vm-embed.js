@@ -31,7 +31,7 @@ class LiteVMEmbed extends HTMLElement {
      * TODO: Consider using webp if supported, falling back to jpg
      */
     if (!this.style.backgroundImage) {
-      this.posterUrl = `https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg`;
+      this.posterUrl = `https://vumbnail.com/${this.videoId}.jpg`;
       // Warm the connection for the poster image
       LiteVMEmbed.addPrefetch("preload", this.posterUrl, "image");
 
