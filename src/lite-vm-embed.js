@@ -93,13 +93,13 @@ class LiteVMEmbed extends HTMLElement {
     if (LiteVMEmbed.preconnected) return;
 
     // The iframe document and most of its subresources come right off player.vimeo.com
-    addPrefetch("preconnect", "https://player.vimeo.com");
+    LiteVMEmbed.addPrefetch("preconnect", "https://player.vimeo.com");
     // Images
-    addPrefetch("preconnect", "https://i.vimeocdn.com");
+    LiteVMEmbed.addPrefetch("preconnect", "https://i.vimeocdn.com");
     // Files .js, .css
-    addPrefetch("preconnect", "https://f.vimeocdn.com");
+    LiteVMEmbed.addPrefetch("preconnect", "https://f.vimeocdn.com");
     // Metrics
-    addPrefetch("preconnect", "https://fresnel.vimeocdn.com");
+    LiteVMEmbed.addPrefetch("preconnect", "https://fresnel.vimeocdn.com");
 
     LiteVMEmbed.preconnected = true;
   }
