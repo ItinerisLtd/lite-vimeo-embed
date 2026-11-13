@@ -1,5 +1,8 @@
 name: Build project and Run Lighthouse CI
 on: [push]
+permissions:
+  contents: read
+
 jobs:
   lhci:
     name: Lighthouse CI
